@@ -7,9 +7,9 @@ import './checkout-item.styles.scss'
 
 import { addItemToWishList } from '../../redux/wishList/wish-list.actions'
 
-const CheckoutItem = ({ addItemToWishList, cartItem, clearItem, addItem, removeItem, wishList }) => {
+export const CheckoutItem = ({ addItemToWishList, cartItem, clearItem, addItem, removeItem, wishList }) => {
   const { name, imageUrl, price, quantity, size, collection } = cartItem
-  const isAddInWishList = wishList.find(item => item.name === name && item.collection === collection)
+  const isAddInWishList = wishList ? wishList.find(item => item.name === name && item.collection === collection) : null
   return (
     <article>
       <section className="checkout">
