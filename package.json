@@ -1,0 +1,36 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "souhail",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4",
+    "normalize-url": "^5.0.0",
+    "path": "^0.12.7",
+    "react-burger-menu": "^2.6.13",
+    "react-select": "^3.1.0",
+    "react-spinners": "^0.8.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souhailsouid/e-commerce_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/souhailsouid/e-commerce_portfolio/issues"
+  },
+  "homepage": "https://github.com/souhailsouid/e-commerce_portfolio#readme"
+}

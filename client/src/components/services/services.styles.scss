@@ -1,0 +1,14 @@
+
+.service {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10rem;
+  
+  }
+  .custom {
+    font-size: 5rem;  
+    color: grayscale($color: #00000065)
+
+  }

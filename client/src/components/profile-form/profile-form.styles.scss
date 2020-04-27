@@ -1,0 +1,33 @@
+
+
+.message-notification {
+border: 1px solid green !important; 
+height: 4rem !important; 
+width: 44vw !important; 
+
+
+}
+.notification {
+    font-size: 15px !important;
+    margin: 0 auto !important;
+}
+.modal-style {
+    display: flex;
+    width: 47vw;
+    justify-content: space-around;
+    align-items: flex-end;
+.modal-section1 {
+    width: 20vw
+}
+.modal-section2 {
+    width: 20vw;
+    height: 50vh;
+    .label-picture {
+        padding-bottom: .5rem;
+    }
+    .modal-picture {
+        margin: 1rem auto ;      
+    }
+}
+}
+

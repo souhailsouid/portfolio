@@ -1,0 +1,39 @@
+.select {
+    margin-top: 3rem;
+    display: flex;
+}
+.notification {
+   margin-top: 2rem;
+   height: 2rem;
+   width: 15vw;
+}
+.message {
+    background-color: #cc4949; 
+    border: 1px solid #cc4949; 
+    color: #fff; 
+    height: 2rem;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.message-success {
+    background-color: #7cae84; 
+    border: 1px solid #7cae84; 
+    color: #fff; 
+    height: 2rem;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.message-warning {
+    background-color: #aaa397; 
+    border: 1px solid #aaa397; 
+    color: #fff; 
+    height: 2rem;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+}
