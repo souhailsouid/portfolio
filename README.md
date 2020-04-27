@@ -22,13 +22,15 @@ Lancez  le serveur avec un Npm start
 
 (Serveur is running on port 5000)
 
-Config Db
+
 
 ### Front
 
 Npm install
 
 Npm start
+
+Les tests:  NPM test
 
 (App lauch on port 9000)
 
