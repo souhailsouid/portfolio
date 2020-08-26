@@ -12,7 +12,7 @@ import './select-item-by-size.styles.scss'
 
 
 const SelectItemBySize = ({ collection, props, addItem, match }) => {
-
+    console.log('collection', collection)
     const { items } = collection
     const [size, setSize] = useState(null)
     const [notification, setNotification] = useState('')
@@ -110,6 +110,12 @@ const SelectItemBySize = ({ collection, props, addItem, match }) => {
             </section>
             <footer className="footer">
                 <form onSubmit={(e) => handleSubmit(e)}>
+                    {/* Si à la quantité est égal à zero 
+                    alors 
+                    le bouton ajouter au panier disparait
+                     et  
+                     un  message  "Article en rupture de stock "  apparait
+                     */}
                     {quantityBySize === 0 ?
                         <CustomButton outOfStock  >
                             Article en rupture de stock !
