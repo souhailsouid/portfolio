@@ -5,12 +5,12 @@ import rootReducer from './root-reducer';
 
 const initialState = {};
 
-const middleware = [thunk];
+export const middlewares = [thunk];
 
 const store = createStore(
   rootReducer,
   initialState,
-  composeWithDevTools(applyMiddleware(...middleware))
+  composeWithDevTools(applyMiddleware(...middlewares))
 );
 
 // set up a store subscription listener
